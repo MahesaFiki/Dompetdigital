@@ -37,7 +37,7 @@ def save_user_data(user_id, data):
     save_users(users)
 
 # Halaman Login
-st.title("Dompet Digital - Login")
+st.title("Dompet Digital EasySave - Login")
 user_id = st.text_input("Masukkan ID Pengguna:")
 password = st.text_input("Masukkan Password:", type="password")
 
